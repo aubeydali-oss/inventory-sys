@@ -1,0 +1,296 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #f4f6f9;
+}
+
+nav {
+  background: #0d6efd;
+  color: white;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav a {
+  color: white;
+  margin-left: 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.container {
+  background: white;
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 25px;
+  border-radius: 8px;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+button {
+  background: #0d6efd;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.low {
+  color: red;
+  font-weight: bold;
+}
+
+.report-box div {
+  margin: 10px 0;
+  font-size: 18px;
+}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  margin: 0;
+  background: linear-gradient(135deg, #e9f0ff, #f4f6f9);
+}
+
+/* ===== NAVBAR ===== */
+nav {
+  background: linear-gradient(90deg, #0d6efd, #084298);
+  color: white;
+  padding: 15px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav h2 {
+  margin: 0;
+  letter-spacing: 1px;
+}
+
+nav a {
+  color: white;
+  margin-left: 20px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  text-decoration: underline;
+  opacity: 0.9;
+}
+
+/* ===== CONTAINER ===== */
+.container {
+  background: white;
+  max-width: 900px;
+  margin: 50px auto;
+  padding: 40px;
+  border-radius: 14px;
+  box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+}
+
+/* ===== HOME HERO ===== */
+.hero {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.hero h1 {
+  font-size: 42px;
+  color: #0d6efd;
+  margin-bottom: 15px;
+}
+
+.hero p {
+  font-size: 18px;
+  color: #555;
+  max-width: 650px;
+  margin: auto;
+  line-height: 1.6;
+}
+
+.hero-buttons {
+  margin-top: 30px;
+}
+
+.hero-buttons a {
+  display: inline-block;
+  margin: 10px;
+  padding: 12px 30px;
+  border-radius: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.btn-primary {
+  background: #0d6efd;
+  color: white;
+}
+
+.btn-primary:hover {
+  background: #084298;
+}
+
+.btn-outline {
+  border: 2px solid #0d6efd;
+  color: #0d6efd;
+}
+
+.btn-outline:hover {
+  background: #0d6efd;
+  color: white;
+}
+
+/* ===== FORM ===== */
+input, textarea {
+  width: 100%;
+  padding: 12px;
+  margin: 12px 0;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 15px;
+}
+
+button {
+  background: #0d6efd;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background: #084298;
+}
+
+/* ===== INVENTORY ===== */
+.low {
+  color: red;
+  font-weight: bold;
+}
+
+/* ===== REPORT ===== */
+.report-box {
+  background: #f8f9fa;
+  padding: 25px;
+  border-radius: 10px;
+}
+
+.report-box div {
+  margin: 12px 0;
+  font-size: 18px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  margin: 0;
+  background: linear-gradient(135deg, #e9f0ff, #f4f6f9);
+}
+
+/* ===== NAVBAR ===== */
+nav {
+  background: linear-gradient(90deg, #0d6efd, #084298);
+  color: white;
+  padding: 15px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav h2 {
+  margin: 0;
+  letter-spacing: 1px;
+}
+
+nav a {
+  color: white;
+  margin-left: 20px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  text-decoration: underline;
+  opacity: 0.9;
+}
+
+/* ===== CONTAINER ===== */
+.container {
+  background: white;
+  max-width: 900px;
+  margin: 50px auto;
+  padding: 40px;
+  border-radius: 14px;
+  box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+}
+
+/* ===== HERO SECTION ===== */
+.hero {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.hero h1 {
+  font-size: 42px;
+  color: #0d6efd;
+  margin-bottom: 15px;
+}
+
+.hero p {
+  font-size: 18px;
+  color: #555;
+  max-width: 650px;
+  margin: auto;
+  line-height: 1.6;
+}
+
+.hero-buttons {
+  margin-top: 30px;
+}
+
+.hero-buttons a {
+  display: inline-block;
+  margin: 10px;
+  padding: 12px 30px;
+  border-radius: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.btn-primary {
+  background: #0d6efd;
+  color: white;
+}
+
+.btn-primary:hover {
+  background: #084298;
+}
+
+.btn-outline {
+  border: 2px solid #0d6efd;
+  color: #0d6efd;
+}
+
+.btn-outline:hover {
+  background: #0d6efd;
+  color: white;
+}
+

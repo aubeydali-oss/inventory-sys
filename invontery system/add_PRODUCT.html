@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Add Product</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+  <h2>Inventory System</h2>
+  <div>
+    <a href="index.html">Home</a>
+    <a href="add_PRODUCT.html">Add Product</a>
+    <a href="inventory.html">Inventory</a>
+    <a href="reports.html">Reports</a>
+    <a href="contact.html">Contact</a>
+  </div>
+</nav>
+
+<div class="container">
+  <h2>Add / Update Product</h2>
+
+  <div class="input-wrapper">
+    <input type="text" id="productName" placeholder="Product Name">
+    <span class="error-icon" title="Product name is required!"></span>
+  </div>
+
+  <div class="input-wrapper">
+    <input type="number" id="productQty" placeholder="Quantity">
+    <span class="error-icon" title="Quantity must be > 0"></span>
+  </div>
+
+  <button onclick="addProduct()" class="btn-primary">Add Product</button>
+  <p id="message"></p>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
